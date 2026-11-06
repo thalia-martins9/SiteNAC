@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR" data-contrast="normal">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Núcleo de Arte e Cultura do IFSULDEMINAS Campus Machado: agenda de eventos, projetos, galeria, notícias e memória das ações culturais.">
+  <meta name="theme-color" content="#FCFAEE">
+  <title>NAC - Núcleo de Arte e Cultura | IFSULDEMINAS</title>
+  <link rel="icon" href="images/LogoNucleodeArteeCultura.jpeg">
+  <!-- Fontes e ícones carregam sem travar a primeira exibição da página -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" onload="this.onload=null;this.rel='stylesheet'">
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  </noscript>
+
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" ></script>
+</head>
+<body>
+
+  <a href="#conteudo" class="skip-link" data-skip-link>Ir para o conteúdo</a>
+
+  <header class="site-header">
+    <div class="top-bar">
+      <p class="top-bar-info"><a href="https://www.ifsuldeminas.edu.br" target="_blank" rel="noopener noreferrer">IFSULDEMINAS • Campus Machado<span class="visually-hidden"> (abre em nova aba)</span></a></p>
+
+      <div class="a11y-tools">
+        <div class="font-resizer" role="group" aria-label="Tamanho da fonte">
+          <span class="font-resizer-label" aria-hidden="true">Fonte:</span>
+          <button type="button" data-font-action="dec" aria-label="Diminuir fonte">A-</button>
+          <button type="button" data-font-action="reset" aria-label="Tamanho padrão da fonte">A</button>
+          <button type="button" data-font-action="inc" aria-label="Aumentar fonte">A+</button>
+        </div>
+        <button type="button" class="contrast-btn" data-contrast-toggle aria-pressed="false">
+          <i class="fa-solid fa-circle-half-stroke" aria-hidden="true"></i> Alto contraste
+        </button>
+      </div>
+    </div>
+
+    <nav class="navbar" aria-label="Navegação principal">
+      <div class="navbar-inner">
+        <a href="#home" class="brand" aria-label="NAC - Núcleo de Arte e Cultura, ir para o início">
+          <img src="images/LogoNucleodeArteeCultura.jpeg" alt="Logótipo do NAC" class="brand-logo" width="44" height="44">
+          
+          <span class="brand-text">
+            <span class="brand-title">
+              <span class="brand-name">NAC</span>
+              <span class="brand-sub">| Núcleo de Arte e Cultura</span>
+            </span>
+            <span class="brand-partner">Parceria IFSULDEMINAS Campus Machado</span>
+          </span>
+        </a>
+
+        <button type="button" class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Abrir menu de navegação">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home" class="nav-link">Início</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre o NAC</a></li>
+          <li><a href="#agenda" class="nav-link">Agenda</a></li>
+          <li><a href="#projetos" class="nav-link">Projetos e Ações</a></li>
+          <li><a href="#galeria" class="nav-link">Galeria</a></li>
+          <li><a href="#divulgacao" class="nav-link">Notícias</a></li>
+          <li><a href="#memoria" class="nav-link">Memória</a></li>
+          <li><a href="#contatos" class="nav-link btn-contact">Contato</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main-container" id="conteudo" tabindex="-1">
+
+    <noscript>
+      <div class="card">
+        <p>Este site precisa do JavaScript ativado para mostrar o conteúdo. Enquanto isso, acompanhe o NAC no Instagram: <a href="https://www.instagram.com/nucleodeartecultura/">@nucleodeartecultura</a>.</p>
+      </div>
+    </noscript>
+
+    <!-- ============ INÍCIO ============ -->
+    <section id="home" class="tab-content" tabindex="-1" aria-labelledby="t-home">
+      <div class="hero">
+        <div class="hero-content">
+          <span class="pill-tag">Todo espaço é palco</span>
+          <h1 class="hero-title" id="t-home">Núcleo de Arte e Cultura <br><span class="hero-accent">IFSULDEMINAS</span></h1>
+          <p class="hero-text">Espaço de integração, desenvolvimento artístico e fortalecimento da identidade cultural acadêmica e comunitária do Sul de Minas.</p>
+          <div class="hero-buttons">
+            <a href="#agenda" class="btn btn-primary"><i class="fa-regular fa-calendar-check" aria-hidden="true"></i><span>Ver Agenda Cultural</span></a>
+            <a href="#projetos" class="btn btn-secondary"><span>Conheça os Projetos</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+          </div>
+        </div>
+
+        <figure class="hero-media">
+          <img
+            src="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80"
+            srcset="https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=480&q=75 480w, https://images.unsplash.com/photo-1513364776144-60967b0f800f?auto=format&fit=crop&w=800&q=80 800w"
+            sizes="(min-width: 1024px) 40vw, 100vw"
+            alt="Materiais de pintura e artes visuais sobre uma bancada"
+            width="800" height="600" fetchpriority="high" decoding="async">
+          <figcaption>
+            <span class="card-badge">Oficinas Culturais</span>
+            <span class="card-caption">Vivências Artísticas no Campus Machado / IFSULDEMINAS</span>
+          </figcaption>
+        </figure>
+      </div>
+
+      <ul class="values" aria-label="Valores do NAC">
+        <li><span class="dot dot-pink" aria-hidden="true"></span>Diversidade</li>
+        <li><span class="dot dot-lime" aria-hidden="true"></span>Criatividade</li>
+        <li><span class="dot dot-blue" aria-hidden="true"></span>Experimentação</li>
+        <li><span class="dot dot-yellow" aria-hidden="true"></span>Pluralidade</li>
+      </ul>
+
+      <div class="block">
+        <h2 class="block-title"><i class="fa-regular fa-calendar" aria-hidden="true"></i> Próximos eventos</h2>
+        <div data-slot="home-proximos"></div>
+        <p><a class="text-link" href="#agenda">Ver a agenda completa</a></p>
+      </div>
+
+      <div class="block">
+        <h2 class="block-title block-title-green"><i class="fa-solid fa-compass" aria-hidden="true"></i> O que você procura?</h2>
+        <ul class="tiles">
+          <li><a class="tile" href="#agenda"><span class="tile-icon tile-pink"><i class="fa-regular fa-calendar-check" aria-hidden="true"></i></span><span><span class="tile-title">Agenda</span><span class="tile-text">Veja os próximos eventos e oficinas.</span></span></a></li>
+          <li><a class="tile" href="#projetos"><span class="tile-icon tile-lime"><i class="fa-solid fa-masks-theater" aria-hidden="true"></i></span><span><span class="tile-title">Projetos e Ações</span><span class="tile-text">Conheça o que o NAC realiza.</span></span></a></li>
+          <li><a class="tile" href="#galeria"><span class="tile-icon tile-blue"><i class="fa-regular fa-images" aria-hidden="true"></i></span><span><span class="tile-title">Galeria</span><span class="tile-text">Fotos, vídeos e trabalhos dos estudantes.</span></span></a></li>
+          <li><a class="tile" href="#divulgacao"><span class="tile-icon tile-yellow"><i class="fa-regular fa-newspaper" aria-hidden="true"></i></span><span><span class="tile-title">Notícias</span><span class="tile-text">Avisos, divulgação e inscrições.</span></span></a></li>
+          <li><a class="tile" href="#memoria"><span class="tile-icon tile-pink"><i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i></span><span><span class="tile-title">Memória</span><span class="tile-text">Reveja o que já aconteceu.</span></span></a></li>
+          <li><a class="tile" href="#sobre"><span class="tile-icon tile-green"><i class="fa-regular fa-circle-question" aria-hidden="true"></i></span><span><span class="tile-title">Sobre o NAC</span><span class="tile-text">Quem somos e para quem é o núcleo.</span></span></a></li>
+        </ul>
+      </div>
+
+      <div class="info-grid">
+        <div class="card card-stack">
+          <h2 class="card-heading">Redes Sociais e Canais Oficiais</h2>
+          <div data-slot="canais-home"></div>
+        </div>
+
+        <div class="card card-stack">
+          <h2 class="card-heading">Parceria Institucional</h2>
+          <div class="chip-grid">
+            <a class="chip chip-green" href="https://www.ifsuldeminas.edu.br" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> IFSULDEMINAS<span class="visually-hidden"> (abre em nova aba)</span></a>
+            <div class="chip chip-blue"><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Campus Machado</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SOBRE ============ -->
+    <section id="sobre" class="tab-content" tabindex="-1" aria-labelledby="t-sobre">
+      <div class="page-head">
+        <h1 class="section-title" id="t-sobre">Sobre o NAC</h1>
+        <p class="section-subtitle">Quem somos, o que fazemos e para quem é este espaço.</p>
+      </div>
+
+      <div class="card card-stack">
+        <h2 class="card-heading">O que é o NAC</h2>
+        <p class="about-text">O <strong>Núcleo de Arte e Cultura</strong> fomenta o acesso à cultura e promove o desenvolvimento integral dos estudantes através da arte.</p>
+        <p class="about-text">Este site reúne em um só lugar as ações de Arte e Cultura do Campus Machado: os eventos que vão acontecer, os projetos em andamento e o registro do que já foi realizado.</p>
+      </div>
+
+      <div class="info-grid">
+        <div class="card card-stack">
+          <h2 class="card-heading">O que você encontra aqui</h2>
+          <ul class="check-list">
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Agenda de eventos, com página de cada evento</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Projetos, oficinas e ações do núcleo</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Avisos e inscrições abertas</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Fotos, vídeos e trabalhos dos estudantes</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Memória das atividades já realizadas</li>
+          </ul>
+        </div>
+
+        <div class="card card-stack">
+          <h2 class="card-heading">Para quem é o NAC</h2>
+          <ul class="check-list">
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Estudantes do Campus Machado</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Servidoras e servidores</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Artistas e instituições parceiras</li>
+            <li><i class="fa-solid fa-check" aria-hidden="true"></i> Familiares e comunidade externa</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="block">
+        <h2 class="block-title"><i class="fa-solid fa-palette" aria-hidden="true"></i> No que acreditamos</h2>
+        <ul class="belief-grid">
+          <li class="belief belief-pink"><strong>Diversidade</strong><span>Todas as pessoas e linguagens artísticas têm lugar.</span></li>
+          <li class="belief belief-lime"><strong>Criatividade</strong><span>Criar é parte da formação de cada estudante.</span></li>
+          <li class="belief belief-blue"><strong>Experimentação</strong><span>Testar, errar e recomeçar faz a arte avançar.</span></li>
+          <li class="belief belief-yellow"><strong>Pluralidade</strong><span>Muitas vozes juntas formam a cultura do campus.</span></li>
+        </ul>
+      </div>
+
+      <div class="card card-stack">
+        <h2 class="card-heading">Acessibilidade neste site</h2>
+        <ul class="check-list">
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Botões A-, A e A+ no topo para ajustar o tamanho do texto</li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Modo de alto contraste</li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Navegação completa pelo teclado e compatível com leitores de tela</li>
+          <li><i class="fa-solid fa-check" aria-hidden="true"></i> Textos alternativos nas imagens e legendas nos vídeos</li>
+        </ul>
+        <p class="about-text">Encontrou alguma barreira? Conte para a gente na página de <a class="text-link" href="#contatos">Contato</a>.</p>
+      </div>
+    </section>
+
+    <!-- ============ AGENDA ============ -->
+    <section id="agenda" class="tab-content" tabindex="-1" aria-labelledby="t-agenda">
+      <div class="page-head">
+        <h1 class="section-title" id="t-agenda">Agenda Cultural</h1>
+        <p class="section-subtitle">Escolha um evento para ver data, horário, local, inscrição e registros.</p>
+      </div>
+
+      <div class="block">
+        <h2 class="block-title"><i class="fa-regular fa-calendar" aria-hidden="true"></i> Próximos eventos</h2>
+        <div data-slot="agenda-proximos"></div>
+      </div>
+
+      <div class="block">
+        <h2 class="block-title block-title-green"><i class="fa-solid fa-clock-rotate-left" aria-hidden="true"></i> Eventos realizados</h2>
+        <div data-slot="agenda-passados"></div>
+      </div>
+    </section>
+
+    <!-- ============ PÁGINA DE EVENTO (montada pelo script) ============ -->
+    <section id="evento" class="tab-content" tabindex="-1" aria-labelledby="t-evento">
+      <div id="evento-conteudo" class="event-page"></div>
+    </section>
+
+    <!-- ============ PROJETOS E AÇÕES ============ -->
+    <section id="projetos" class="tab-content" tabindex="-1" aria-labelledby="t-projetos">
+      <div class="page-head">
+        <h1 class="section-title" id="t-projetos">Projetos Culturais e Artísticos</h1>
+        <p class="section-subtitle">Iniciativas vigentes desenvolvidas pelo NAC em parceria com docentes e alunos.</p>
+      </div>
+
+      <div class="block">
+        <h2 class="block-title"><i class="fa-solid fa-star" aria-hidden="true"></i> Principais Projetos em Destaque</h2>
+        <div data-slot="projetos"></div>
+      </div>
+
+      <div class="card card-cta">
+        <div>
+          <h2 class="card-heading card-heading-plain">Tem uma ideia de projeto ou oficina?</h2>
+          <p class="about-text">Estudantes, servidores e parceiros podem propor ações. Fale com a equipe do NAC.</p>
+        </div>
+        <a class="btn btn-primary" href="#contatos"><span>Falar com o NAC</span><i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+      </div>
+    </section>
+
+    <!-- ============ GALERIA ============ -->
+    <section id="galeria" class="tab-content" tabindex="-1" aria-labelledby="t-galeria">
+      <div class="page-head">
+        <h1 class="section-title" id="t-galeria">Galeria</h1>
+        <p class="section-subtitle">Fotos, vídeos e trabalhos dos estudantes, de edições anteriores, oficinas e mostras do núcleo.</p>
+      </div>
+
+      <div class="filter-bar" role="group" aria-label="Tipo de conteúdo da galeria">
+        <button type="button" class="filter-btn" data-gallery-filter="fotos" aria-pressed="true"><i class="fa-regular fa-image" aria-hidden="true"></i> Fotos</button>
+        <button type="button" class="filter-btn" data-gallery-filter="videos" aria-pressed="false"><i class="fa-solid fa-film" aria-hidden="true"></i> Vídeos</button>
+        <button type="button" class="filter-btn" data-gallery-filter="trabalhos" aria-pressed="false"><i class="fa-solid fa-paintbrush" aria-hidden="true"></i> Trabalhos dos estudantes</button>
+      </div>
+
+      <div data-gallery-panel="fotos" data-slot="galeria-fotos"></div>
+      <div data-gallery-panel="videos" data-slot="galeria-videos" hidden></div>
+      <div data-gallery-panel="trabalhos" data-slot="galeria-trabalhos" hidden></div>
+    </section>
+
+    <!-- ============ NOTÍCIAS / DIVULGAÇÃO ============ -->
+    <section id="divulgacao" class="tab-content" tabindex="-1" aria-labelledby="t-divulgacao">
+      <div class="page-head">
+        <h1 class="section-title" id="t-divulgacao">Notícias e Divulgação</h1>
+        <p class="section-subtitle">Acompanhe os comunicados oficiais, as programações das oficinas e as inscrições abertas.</p>
+      </div>
+
+      <div data-slot="noticias-destaque"></div>
+
+      <div class="block">
+        <h2 class="block-title"><i class="fa-solid fa-pen-to-square" aria-hidden="true"></i> Inscrições abertas</h2>
+        <div data-slot="inscricoes"></div>
+      </div>
+
+      <div class="block">
+        <h2 class="block-title block-title-green"><i class="fa-regular fa-bell" aria-hidden="true"></i> Avisos importantes</h2>
+        <div data-slot="noticias-avisos"></div>
+      </div>
+    </section>
+
+    <!-- ============ MEMÓRIA ============ -->
+    <section id="memoria" class="tab-content" tabindex="-1" aria-labelledby="t-memoria">
+      <div class="page-head">
+        <h1 class="section-title" id="t-memoria">Memória e Linha do Tempo</h1>
+        <p class="section-subtitle">Marcos históricos e evolução das ações culturais do núcleo.</p>
+      </div>
+
+      <div data-slot="memoria-linha"></div>
+
+      <div class="block">
+        <h2 class="block-title block-title-green"><i class="fa-solid fa-box-archive" aria-hidden="true"></i> Registros das atividades realizadas</h2>
+        <div data-slot="memoria-eventos"></div>
+      </div>
+    </section>
+
+    <!-- ============ CONTATO ============ -->
+    <section id="contatos" class="tab-content" tabindex="-1" aria-labelledby="t-contatos">
+      <div class="page-head">
+        <h1 class="section-title" id="t-contatos">Contato e Redes Sociais</h1>
+        <p class="section-subtitle">Envie propostas, tire dúvidas ou acompanhe nossos canais oficiais.</p>
+      </div>
+
+      <div class="contact-grid">
+        <div class="card card-stack">
+          <h2 class="card-heading">Canais Oficiais</h2>
+          <div data-slot="canais-contato"></div>
+        </div>
+
+        <div class="card card-stack">
+          <h2 class="card-heading">Fale com o NAC</h2>
+          <div data-slot="contato-form"></div>
+        </div>
+      </div>
+
+      <aside class="contact-note">
+        <h2 class="contact-note-title">Como acompanhar o NAC?</h2>
+        <p class="contact-note-text">Siga o Instagram para ver avisos e programações e acesse o canal do YouTube para rever as apresentações. Eventos, projetos e registros ficam reunidos aqui no site.</p>
+      </aside>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <p class="footer-title">NAC - Núcleo de Arte e Cultura <span class="footer-sep">|</span> IFSULDEMINAS</p>
+    <p class="footer-text">Instituto Federal do Sul de Minas Gerais • Campus Machado</p>
+    <p class="footer-text">© 2026 Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
